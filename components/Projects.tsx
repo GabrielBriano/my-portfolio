@@ -15,7 +15,7 @@ function Projects({}: Props) {
     },
     {
       image: '/project.jpg',
-      title: 'Leitora de cartões',
+      title: 'Leitora de Cartões',
       link: 'https://blog-kun.vercel.app/signup',
       description: 'Em conjunto com o Sistema Vision, desenvolvi o código para os leitores em C/C++ e sua gestão em C#. O leitor é responsável por ler os cartões, enquanto o sistema de gestão realiza a verificação do saldo, status, tipo de cartão e outras funcionalidades.',
     },
@@ -50,8 +50,8 @@ function Projects({}: Props) {
         >
           &larr;
         </button>
-
-        <div ref={containerRef} className='scrollbar scrollbar-track-gray-400/20 scrollbar-thin scrollbar-thumb-[#F7AB0A]/80 w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
+        
+        <div ref={containerRef} className='scrollbar-hide w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
           {projects.map((project, index) => (
             <div key={index} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-4 sm:p-8 md:p-12 lg:p-20 h-screen'>
               <motion.img
