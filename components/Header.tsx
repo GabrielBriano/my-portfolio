@@ -24,7 +24,6 @@ export default function Header({}: Props) {
             duration: 1.5
         }}
         className='flex flex-row items-center'>
-            <SocialIcon url="https://x.com/Guerra00749058" fgColor='gray' network='x' bgColor='transparent'/>
             <SocialIcon url="https://www.linkedin.com/in/gabriel-briano-de-oliveira-b40424226/" fgColor='gray' bgColor='transparent'/>
             <SocialIcon url="https://github.com/GabrielBriano" fgColor='gray' bgColor='transparent'/>
             <SocialIcon url="https://wa.me/5519997778215" fgColor='gray' network='whatsapp' bgColor='transparent'/>
