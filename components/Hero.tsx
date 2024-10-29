@@ -11,7 +11,7 @@ export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
             "Olá, eu sou o Gabriel Briano",
-            "Muito Prazer"
+            "Muito prazer."
         ], 
         loop: true,
         delaySpeed: 2000
