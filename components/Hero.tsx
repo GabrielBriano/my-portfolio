@@ -10,8 +10,8 @@ type Props = {}
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
-            "Olá, me chamo Gabriel",
-            "Seja-bem-vindo.tsx"
+            "Olá, eu sou o Gabriel Briano",
+            "Muito Prazer"
         ], 
         loop: true,
         delaySpeed: 2000
