@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col items-center justify-center text-center overflow-hidden'>
         <BackgroundCircles />
-        <Image className='relative rounded-full mx-auto object-contain' src="/prof.jpg" alt="External Image" width={200} height={200} />
+        <Image className='relative rounded-full mx-auto object-contain' src="/prof_init.jpg" alt="External Image" width={200} height={200} />
         <div className='z-20'>
             <div className='mt-5'>
                 <h2 className='text-sm uppercase text-gray-500 pb-3 tracking-[15px]'>Desenvolvedor</h2>
