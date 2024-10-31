@@ -27,7 +27,6 @@ function ExperienceCard({}: Props) {
                 <Image width={128} height={128} className='h-10 w-10' src="/react.png" alt="" />
                 <Image width={128} height={128} className='h-10 w-10' src="/js.png" alt="" />
                 <Image width={128} height={128} className='h-10 w-10' src="/css.png" alt="" />
-                <Image width={128} height={128} className='h-10 w-10' src="/mysql.png" alt="" />
             </div>
             <p className='uppercase py-5 text-gray-300'>Julho 2024</p>
             <p className='space-y-4 text-lg z-60'>
