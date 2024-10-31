@@ -30,13 +30,10 @@ function ExperienceCard({}: Props) {
             </div>
             <p className='uppercase py-5 text-gray-300'>Julho 2024</p>
             <p className='space-y-4 text-lg z-60'>
-              • Concepção de banco de dados SQL e planejamento da arquitetura do sistema.
-            </p>
-            <p className='space-y-4 text-lg z-60'>
               • Desenvolvimento de API Web em C# utilizando ASP.NET 8.
             </p>
             <p className='space-y-4 text-lg z-60'>
-              • Desenvolvimento de um microsserviço automatizado para processamento de dados de leitores.
+              • Desenvolvimento de microsserviços automatizados para processamento de dados de leitores.
             </p>
             <p className='space-y-4 text-lg z-60'>
               • Desenvolvimento de sistemas web em React e JavaScript.
