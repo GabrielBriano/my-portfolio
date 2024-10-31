@@ -15,7 +15,7 @@ function Projects({}: Props) {
     },
     {
       image: '/project.jpg',
-      title: 'Leitora de Cartões',
+      title: 'Leitor de Cartões',
       link: 'https://blog-kun.vercel.app/signup',
       description: 'Em conjunto com o Sistema Vision, desenvolvi o código para os leitores em C/C++ e sua gestão em C#. O leitor é responsável por ler os cartões, enquanto o sistema de gestão realiza a verificação do saldo, status, tipo de cartão e outras funcionalidades.',
     },
