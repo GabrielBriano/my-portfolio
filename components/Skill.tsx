@@ -23,7 +23,7 @@ function Skill({ directionLeft, path, level }: Props) {
         />
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-200 group-hover:bg-white h-16 w-16 md:w-20 md:h-20 xl:h-24 xl:w-24 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
-                <p className='text-3xl font-bold text-black opacity-100'>{level}</p>
+                <p className='text-2xl font-bold text-black opacity-100'>{level}</p>
             </div>
         </div>
     </div>
